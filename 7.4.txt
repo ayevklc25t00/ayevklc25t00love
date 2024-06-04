@@ -1752,7 +1752,7 @@ def format_print(symbol, text):
     return f"""                      {Col.Symbol(symbol, lblue, blue)} {lblue}{text}{Col.reset}"""
 
 def run(phone):
-    print(format_print("|.|","ĐANG SPAM TIN NHẮN"))
+    print(format_print("VIP","ĐANG SPAM TIN NHẮN"))
     sms0(phone)
     sms1(phone)
     sms2(phone)
@@ -1803,7 +1803,7 @@ def run(phone):
     sms42(phone)
     sms43(phone)
     sms44(phone)
-    print(format_print(".-.","ĐANG SPAM CALL"))
+    print(format_print("VIP","ĐANG SPAM CALL"))
     time.sleep(1)
     call2(phone)
     time.sleep(5)
